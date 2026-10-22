@@ -505,18 +505,17 @@ html[data-theme="dark"] .grad-text {
   animation: breathe 5.5s ease-in-out infinite;
 }
 
-.avatar-text {
-  font-family: "Poppins", sans-serif;
-  font-size: 3.4rem;
-  font-weight: 800;
-  background-image: var(--grad);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+.avatar-photo {
+  overflow: hidden;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
-html[data-theme="dark"] .avatar-text {
-  background-image: linear-gradient(135deg, #a5acff 0%, #7d84f5 100%);
+.avatar-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .ring {
