@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Junel T. Abelgas, a 4th year student at Cebu Eastern College learning web development, programming, and computer networking with Cisco.">
+  <meta name="author" content="Junel T. Abelgas">
+  <meta name="theme-color" content="#e3e9f2">
+  <title>Junel T. Abelgas — Student Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <header class="nav-wrap">
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="#home" class="brand">JA<span class="brand-dot">.</span></a>
+
+      <ul class="menu" id="menu">
+        <li><a href="#home" class="menu-link active">Home</a></li>
+        <li><a href="#about" class="menu-link">About</a></li>
+        <li><a href="#skills" class="menu-link">Skills</a></li>
+        <li><a href="#projects" class="menu-link">Projects</a></li>
+        <li><a href="#contact" class="menu-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle dark mode" title="Toggle theme">
+          <span class="ico ico-sun">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          </span>
+          <span class="ico ico-moon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </span>
+        </button>
+        <button id="menuBtn" class="icon-btn burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HOME ============ -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Student Portfolio</p>
+          <h1 class="reveal">Hi, I'm <span class="grad-text">Junel T. Abelgas</span></h1>
+          <p class="role-line reveal" aria-hidden="true"><span id="typed"></span><span class="caret"></span></p>
+          <p class="sr-only">I am a 4th year student learning web development, computer networking with Cisco, and office productivity tools.</p>
+          <p class="lead reveal">
+            I'm a 4th year student at <strong>Cebu Eastern College</strong> learning web development
+            and computer networking. I enjoy building small web apps and games, and understanding
+            how networks work.
+          </p>
+          <div class="hero-cta reveal">
+            <a class="btn btn-primary" href="#projects">
+              View My Work
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#contact">
+              Get In Touch
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
+            </a>
+          </div>
+          <ul class="hero-meta reveal">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Cebu, Philippines
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5zM6 12v5c3 3 9 3 12 0v-5"/></svg>
+              4th Year Student, Cebu Eastern College
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="avatar-wrap">
+            <span class="ring ring-outer"></span>
+            <span class="ring ring-inner"></span>
+            <div class="avatar"><span class="avatar-text">JA</span></div>
+          </div>
+          <div class="float-chip chip-a">Web Dev</div>
+          <div class="float-chip chip-b">Cisco</div>
+          <div class="float-chip chip-c">Excel</div>
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+        </div>
+      </div>
+
+      <a class="scroll-hint" href="#about" aria-label="Scroll down to about section">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">Who I Am</p>
+          <h2>About Me</h2>
+        </header>
+
+        <div class="about-grid">
+          <article class="card about-card reveal">
+            <h3>Hello, welcome to my corner of the web.</h3>
+            <p>
+              I'm <strong>Junel T. Abelgas</strong>, a 4th year student at
+              <strong>Cebu Eastern College</strong>. I'm the kind of learner who likes to build
+              things and then figure out why they work: from web pages and browser games
+              to the networks that connect everything.
+            </p>
+            <p>
+              Right now I'm focused on the fundamentals: writing clean HTML, CSS, and
+              JavaScript, practicing networking concepts with <strong>Cisco</strong> materials,
+              and handling data comfortably with tools like <strong>Microsoft Excel</strong>.
+              I'm honest about where I am: I'm a beginner who shows up, practices, and
+              ships small projects to steadily get better.
+            </p>
+            <h4>What I'm interested in</h4>
+            <ul class="chip-list">
+              <li class="chip">Web Development</li>
+              <li class="chip">Computer Networking</li>
+              <li class="chip">Cloud (AWS)</li>
+              <li class="chip">AI and Machine Learning</li>
+              <li class="chip">Game Development</li>
+              <li class="chip">Office Productivity</li>
+            </ul>
+
+            <h4>Highlights</h4>
+            <ul class="highlight-list">
+              <li>Participated in AWS (Amazon Web Services) seminars — exploring cloud fundamentals</li>
+              <li>Built two working projects from scratch with plain HTML, CSS, and JavaScript</li>
+              <li>Created and maintains this responsive portfolio on GitHub</li>
+            </ul>
+          </article>
+
+          <div class="quick-facts">
+            <div class="fact card-mini reveal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5zM6 12v5c3 3 9 3 12 0v-5"/></svg>
+              <span class="fact-value">4th Year</span>
+              <span class="fact-label">College Level</span>
+            </div>
+            <div class="fact card-mini reveal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span class="fact-value">Cebu</span>
+              <span class="fact-label">Cebu Eastern College</span>
+            </div>
+            <div class="fact card-mini reveal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+              <span class="fact-value">Code + Network</span>
+              <span class="fact-label">My Learning Track</span>
+            </div>
+            <div class="fact card-mini reveal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>
+              <span class="fact-value">Builder</span>
+              <span class="fact-label">Learning by Making</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">What I Work With</p>
+          <h2>My Skills</h2>
+          <p class="section-sub">An honest snapshot of my current abilities. Every day is practice day.</p>
+        </header>
+
+        <div class="skills-grid">
+          <div class="card skill-card reveal">
+            <h3>Core Skills</h3>
+
+            <div class="skill">
+              <div class="skill-head">
+                <span class="skill-name">Microsoft Excel and Office Tools</span>
+                <span class="skill-level">Basic</span>
+              </div>
+              <span class="bar" role="progressbar" aria-label="Microsoft Excel and Office Tools, basic level"><i style="--level:60%"></i></span>
+            </div>
+
+            <div class="skill">
+              <div class="skill-head">
+                <span class="skill-name">HTML and CSS</span>
+                <span class="skill-level">Basic</span>
+              </div>
+              <span class="bar" role="progressbar" aria-label="HTML and CSS, basic level"><i style="--level:55%"></i></span>
+            </div>
+
+            <div class="skill">
+              <div class="skill-head">
+                <span class="skill-name">JavaScript Programming</span>
+                <span class="skill-level">Beginner</span>
+              </div>
+              <span class="bar" role="progressbar" aria-label="JavaScript, beginner level"><i style="--level:40%"></i></span>
+            </div>
+
+            <div class="skill">
+              <div class="skill-head">
+                <span class="skill-name">Networking Fundamentals (Cisco)</span>
+                <span class="skill-level">Studying</span>
+              </div>
+              <span class="bar" role="progressbar" aria-label="Cisco networking fundamentals, studying level"><i style="--level:50%"></i></span>
+            </div>
+          </div>
+
+          <div class="card stack-card reveal">
+            <h3>Tools and Topics</h3>
+            <ul class="chip-list">
+              <li class="chip">Microsoft Excel</li>
+              <li class="chip">Macros (basic)</li>
+              <li class="chip">Google Sheets</li>
+              <li class="chip">HTML</li>
+              <li class="chip">CSS</li>
+              <li class="chip">JavaScript</li>
+              <li class="chip">Git and GitHub</li>
+              <li class="chip">Cisco Networking</li>
+              <li class="chip">Google Apps Script</li>
+            </ul>
+            <h3 class="stack-sub">Currently Learning</h3>
+            <ul class="chip-list">
+              <li class="chip chip-learning">Responsive Web Design</li>
+              <li class="chip chip-learning">Routing and Switching (Cisco)</li>
+              <li class="chip chip-learning">JavaScript Projects</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">My Work</p>
+          <h2>Projects</h2>
+          <p class="section-sub">School projects and practice builds from my GitHub. More coming as I keep learning.</p>
+        </header>
+
+        <div class="project-list">
+          <article class="project card reveal">
+            <figure class="shot">
+              <img src="images/shots/game-desktop.png"
+                   alt="Screenshot of the Flappy Bird browser game showing the yellow bird, green pipes, and score display"
+                   width="1200" height="750" loading="lazy">
+            </figure>
+            <div class="project-body">
+              <h3>Flappy Bird — HTML5 Canvas Game</h3>
+              <p>
+                A browser mini-game inspired by the classic Flappy Bird, built for a school
+                assignment. Press space or click to flap, pass through the pipe gaps, and
+                try to beat your own score.
+              </p>
+              <p class="contribution">
+                <strong>My contribution:</strong> I wrote the game logic from scratch in plain
+                JavaScript: the bird's gravity and flap physics, pipe spawning and gap logic,
+                collision detection, live scoring, and the game over screen.
+              </p>
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Canvas</li>
+              </ul>
+              <div class="project-links">
+                <a class="btn btn-ghost btn-sm" href="https://github.com/JunelTheAbelgas/GAME" target="_blank" rel="noopener">
+                  <svg width="17" height="17" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A7.995 7.995 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                  View Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project card reveal">
+            <figure class="shot">
+              <img src="images/shots/sheets-desktop.png"
+                   alt="Screenshot of the Save Data to Google Sheets web app showing name and score inputs with save and load buttons"
+                   width="1200" height="750" loading="lazy">
+            </figure>
+            <div class="project-body">
+              <h3>Google Sheets Data Saver — Web App</h3>
+              <p>
+                A small web tool that saves a name and score straight into a Google Sheet
+                through the Google Apps Script web API, then can fetch the saved entries
+                back and show them in a table.
+              </p>
+              <p class="contribution">
+                <strong>My contribution:</strong> I built the front-end form and styling, wired
+                the Save and Load buttons to the Apps Script endpoint with fetch requests,
+                and handled displaying the returned data.
+              </p>
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Google Apps Script</li>
+              </ul>
+              <div class="project-links">
+                <a class="btn btn-ghost btn-sm" href="https://github.com/JunelTheAbelgas/google-sheet-EVD" target="_blank" rel="noopener">
+                  <svg width="17" height="17" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A7.995 7.995 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                  View Source
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="more-note reveal">
+          More projects are on the way as I keep practicing. You can always check my
+          <a href="https://github.com/JunelTheAbelgas" target="_blank" rel="noopener">GitHub profile</a>
+          for the latest work.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="contact-card card reveal">
+          <span class="status-dot" aria-hidden="true"></span>
+          <p class="kicker">Available for Internships and Student Projects</p>
+          <h2>Let's Connect</h2>
+          <p class="contact-text">
+            The easiest way to reach me is by email. Whether it's about internships,
+            class work, or a project you'd like to build together, my inbox is open.
+          </p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:junelabelgas6@gmail.com">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
+              Email Me
+            </a>
+            <button class="btn btn-ghost" id="copyEmail" type="button" data-email="junelabelgas6@gmail.com">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              Copy Email
+            </button>
+            <a class="btn btn-ghost" href="https://github.com/JunelTheAbelgas" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A7.995 7.995 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+              GitHub
+            </a>
+          </div>
+          <p id="copyStatus" class="copy-status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><span class="footer-brand">JA.</span> Built by <strong>Junel T. Abelgas</strong> with plain HTML, CSS, and JavaScript.</p>
+      <p class="footer-copy">Copyright <span id="year">2026</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="toTop" class="icon-btn to-top" type="button" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
