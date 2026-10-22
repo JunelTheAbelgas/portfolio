@@ -2,7 +2,7 @@
 
 Personal portfolio of **Junel T. Abelgas** — 4th year student, Cebu Eastern College.
 
-Live site: https://portfolio-*.vercel.app (add final URL after deployment)
+Live site: https://juneltheabelgas.github.io/portfolio/
 
 ## What's inside
 
@@ -69,6 +69,6 @@ and understand every file.
 ## Deployment notes
 
 - Source: GitHub repository `JunelTheAbelgas/portfolio`
-- Hosting: Vercel (Hobby plan), plain static site — no build command needed
-- Updating: edit files locally, commit to `main`, push — Vercel redeploys
-  automatically
+- Hosting: GitHub Pages, deployed from `main` branch root
+- Updating: edit files locally, commit to `main`, push — Pages republishes
+  automatically (allow a couple of minutes, then hard-refresh)
